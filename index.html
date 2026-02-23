@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DREAM NOVA | Mutate Reality from Inside</title>
+  <meta name="description" content="We didn't train the model. We mutated it. DCS + Genie 3 + Na Nach = Hafatsa 25% Global Tipping Point. Get your Nova Key.">
+  <meta property="og:title" content="DREAM NOVA — Mutate Reality from Inside">
+  <meta property="og:description" content="Nova Key NFC — Hardware that mutates reality. Covenant $63 · Pair $99 · Platinum $149.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0c0a09; --bg-card: rgba(28, 25, 23, 0.85);
+      --gold: #d4af37; --amber: #f59e0b; --cyan: #22d3ee;
+      --text: #f5f5f4; --text-dim: #a8a29e; --text-muted: #78716c;
+      --border: rgba(245, 158, 11, 0.18); --border-glow: rgba(212, 175, 55, 0.5);
+      --radius: 16px;
+      --font-display: "Space Grotesk", sans-serif;
+      --font-body: "Inter", sans-serif;
+      --font-tech: "Rajdhani", sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.7; overflow-x: hidden; }
+    body::before { content: ""; position: fixed; inset: 0; background: radial-gradient(ellipse 80% 50% at 20% 0%, rgba(212,175,55,0.05) 0%, transparent 60%), radial-gradient(ellipse 60% 40% at 80% 100%, rgba(34,211,238,0.03) 0%, transparent 60%); pointer-events: none; z-index: 0; }
+    ::selection { background: rgba(212,175,55,0.25); }
+
+    /* NAV */
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(12,10,9,0.92); border-bottom: 1px solid var(--border); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 0 2rem; }
+    .nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .nav-logo { font-family: var(--font-display); font-size: 1.1rem; font-weight: 800; color: var(--text); text-decoration: none; letter-spacing: 0.05em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 0.5rem; align-items: center; }
+    .nav-links a { text-decoration: none; color: var(--text-dim); font-size: 0.8rem; font-weight: 500; padding: 0.35rem 0.75rem; border-radius: 8px; transition: all 0.2s; font-family: var(--font-display); }
+    .nav-links a:hover { color: var(--gold); background: rgba(212,175,55,0.08); }
+    .nav-cta { background: linear-gradient(135deg, var(--gold), var(--amber)) !important; color: #0c0a09 !important; font-weight: 700 !important; padding: 0.4rem 1rem !important; border-radius: 8px !important; }
+
+    /* HERO */
+    .hero { position: relative; overflow: hidden; text-align: center; padding: 6rem 2rem 4rem; min-height: 85vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+    .hero-video { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+    .hero-video video { width: 100%; height: 100%; object-fit: cover; opacity: 0.15; }
+    .hero > *:not(.hero-video) { position: relative; z-index: 1; }
+    .hero-eyebrow { font-family: var(--font-tech); font-size: 0.72rem; letter-spacing: 0.2em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2rem; }
+    .hero h1 { font-family: var(--font-display); font-size: clamp(2.2rem, 6vw, 4.5rem); font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; }
+    .hero h1 .gold { background: linear-gradient(135deg, var(--gold) 20%, var(--amber) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero-sub { font-size: clamp(1rem, 2.5vw, 1.4rem); color: var(--gold); opacity: 0.9; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .hero-hebrew { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 2rem); color: var(--cyan); animation: pulse 2.5s ease-in-out infinite; margin-bottom: 1.5rem; }
+    .hero-counter { font-family: var(--font-tech); font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 2rem; }
+    .hero-cta { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(135deg, var(--gold), var(--amber)); color: #0c0a09; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: 0.05em; border-radius: 12px; text-decoration: none; transition: all 0.2s; box-shadow: 0 8px 28px rgba(212,175,55,0.35); }
+    .hero-cta:hover { transform: translateY(-3px); box-shadow: 0 12px 40px rgba(212,175,55,0.5); }
+    .hero-meta { margin-top: 2.5rem; font-family: var(--font-tech); font-size: 0.7rem; color: var(--gold); opacity: 0.5; letter-spacing: 0.15em; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+    /* SECTION COMMON */
+    .section { max-width: 1100px; margin: 0 auto; padding: 5rem 2rem; position: relative; z-index: 1; }
+    .section-label { font-family: var(--font-tech); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); opacity: 0.7; margin-bottom: 0.5rem; }
+    .section-title { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; line-height: 1.15; margin-bottom: 0.75rem; background: linear-gradient(135deg, var(--text) 30%, var(--gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .section-sub { color: var(--text-dim); font-size: 1rem; max-width: 600px; }
+    .section-center { text-align: center; }
+    .section-center .section-sub { margin: 0 auto; }
+
+    /* TRACTION STRIP */
+    .traction { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 2.5rem 2rem; background: rgba(212,175,55,0.04); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .traction-item { text-align: center; }
+    .traction-num { font-family: var(--font-display); font-size: 2rem; font-weight: 800; background: linear-gradient(90deg, var(--gold), var(--amber)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .traction-label { font-size: 0.75rem; color: var(--text-dim); margin-top: 0.2rem; }
+
+    /* PRICING */
+    .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+    .pricing-card { position: relative; padding: 2.5rem 2rem; border: 1px solid rgba(212,175,55,0.2); border-radius: var(--radius); background: var(--bg-card); backdrop-filter: blur(12px); display: flex; flex-direction: column; overflow: hidden; transition: all 0.3s; }
+    .pricing-card:hover { border-color: var(--border-glow); transform: translateY(-4px); box-shadow: 0 8px 32px rgba(212,175,55,0.15); }
+    .pricing-card.popular { border-color: var(--gold); box-shadow: 0 0 40px rgba(212,175,55,0.25); transform: scale(1.02); }
+    .pricing-popular-badge { position: absolute; top: -1px; right: 1.5rem; background: var(--gold); color: #0c0a09; font-family: var(--font-display); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; padding: 0.35rem 1rem; border-radius: 0 0 10px 10px; }
+    .pricing-tier { font-family: var(--font-tech); font-size: 0.7rem; font-weight: 600; color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem; }
+    .pricing-name { font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; color: var(--gold); margin-bottom: 0.3rem; }
+    .pricing-sacred { font-family: var(--font-tech); font-size: 0.75rem; color: var(--cyan); letter-spacing: 0.1em; margin-bottom: 1rem; }
+    .pricing-amount { font-family: var(--font-display); font-size: 3.5rem; font-weight: 800; color: var(--text); line-height: 1; }
+    .pricing-amount span { font-size: 1.2rem; color: var(--text-dim); }
+    .pricing-desc { color: var(--text-dim); font-size: 0.85rem; margin: 1rem 0; }
+    .pricing-features { list-style: none; margin: 1.5rem 0; flex: 1; }
+    .pricing-features li { padding: 0.5rem 0; color: var(--text-dim); font-size: 0.85rem; display: flex; align-items: center; gap: 0.5rem; }
+    .pricing-features li::before { content: "✦"; color: var(--gold); font-size: 0.7rem; }
+    .pricing-btn { display: block; width: 100%; padding: 0.9rem; background: linear-gradient(135deg, var(--gold), var(--amber)); color: #0c0a09; font-family: var(--font-display); font-weight: 700; font-size: 0.85rem; letter-spacing: 0.08em; border: none; border-radius: 10px; cursor: pointer; text-align: center; text-decoration: none; transition: all 0.2s; }
+    .pricing-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(212,175,55,0.35); }
+    .pricing-btn-outline { background: transparent; border: 1px solid var(--gold); color: var(--gold); }
+    .pricing-btn-outline:hover { background: rgba(212,175,55,0.08); }
+    .pricing-footer { text-align: center; margin-top: 2rem; font-family: var(--font-tech); font-size: 0.72rem; color: var(--text-muted); letter-spacing: 0.1em; }
+    /* Shimmer */
+    .shimmer { position: absolute; inset: 0; pointer-events: none; overflow: hidden; border-radius: var(--radius); opacity: 0.12; }
+    .shimmer-inner { position: absolute; inset: 0; width: 200%; background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,0.25) 50%, transparent 70%); animation: shimmer 3s linear infinite; }
+    @keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+
+    /* ROADMAP */
+    .roadmap-timeline { position: relative; max-width: 700px; margin: 2.5rem auto 0; padding-left: 2.5rem; }
+    .roadmap-timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: linear-gradient(180deg, var(--gold), var(--amber), var(--cyan), transparent); }
+    .roadmap-item { position: relative; padding: 1.5rem 0; }
+    .roadmap-item::before { content: ''; position: absolute; left: -2.85rem; top: 1.8rem; width: 16px; height: 16px; border-radius: 50%; background: var(--gold); border: 3px solid var(--bg); box-shadow: 0 0 16px rgba(212,175,55,0.5); }
+    .roadmap-item:last-child::before { background: var(--cyan); box-shadow: 0 0 16px rgba(34,211,238,0.5); }
+    .roadmap-day { font-family: var(--font-display); font-size: 0.72rem; font-weight: 700; color: var(--gold); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 0.3rem; }
+    .roadmap-title { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--text); margin-bottom: 0.4rem; }
+    .roadmap-desc { color: var(--text-dim); font-size: 0.88rem; line-height: 1.6; }
+
+    /* WAITLIST */
+    .waitlist { position: relative; overflow: hidden; background: linear-gradient(135deg, rgba(212,175,55,0.06), rgba(34,211,238,0.03)); border: 1px solid rgba(212,175,55,0.2); border-radius: 24px; padding: 5rem 2rem; text-align: center; margin: 4rem auto; max-width: 1100px; }
+    .waitlist::before { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at 50% 0%, rgba(212,175,55,0.08) 0%, transparent 60%); pointer-events: none; }
+    .waitlist > * { position: relative; z-index: 1; }
+    .waitlist-badge { display: inline-block; padding: 0.3rem 1.2rem; background: rgba(34,211,238,0.1); border: 1px solid rgba(34,211,238,0.3); border-radius: 20px; color: var(--cyan); font-size: 0.7rem; font-weight: 600; font-family: var(--font-display); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 1.5rem; }
+    .waitlist-title { font-family: var(--font-display); font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; background: linear-gradient(135deg, var(--gold) 30%, var(--cyan) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem; }
+    .waitlist-sub { color: var(--text-dim); font-size: 1rem; max-width: 480px; margin: 0 auto 2rem; }
+    .waitlist-form { display: flex; gap: 0.75rem; max-width: 520px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
+    .waitlist-input { flex: 1; min-width: 220px; padding: 0.9rem 1.25rem; background: rgba(12,10,9,0.8); border: 1px solid rgba(212,175,55,0.25); border-radius: 12px; color: var(--text); font-family: var(--font-body); font-size: 0.9rem; outline: none; transition: border-color 0.2s; }
+    .waitlist-input:focus { border-color: var(--gold); }
+    .waitlist-btn { padding: 0.9rem 2rem; background: linear-gradient(135deg, var(--gold), var(--amber)); color: #0c0a09; font-weight: 700; font-family: var(--font-display); font-size: 0.95rem; border: none; border-radius: 12px; cursor: pointer; transition: all 0.2s; letter-spacing: 0.05em; }
+    .waitlist-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,175,55,0.4); }
+    .waitlist-note { color: var(--text-muted); font-size: 0.72rem; margin-top: 1.25rem; letter-spacing: 0.05em; }
+
+    /* FOOTER */
+    footer { text-align: center; padding: 3rem 2rem; border-top: 1px solid var(--border); }
+    .footer-na-nach { font-family: var(--font-display); font-size: 0.9rem; color: var(--gold); font-weight: 600; margin-bottom: 0.5rem; }
+    .footer-copy { font-size: 0.78rem; color: var(--text-muted); }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .pricing-grid { grid-template-columns: 1fr; max-width: 400px; margin-left: auto; margin-right: auto; }
+      .pricing-card.popular { transform: none; }
+      .nav-links a:not(.nav-cta) { display: none; }
+      .traction { gap: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">DREAM<span>NOVA</span></a>
+    <div class="nav-links">
+      <a href="#pricing">Pricing</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#waitlist" class="nav-cta">Get Nova Key</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-video">
+    <video autoplay muted loop playsinline preload="auto">
+      <source src="video/hero-bg.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-eyebrow">NOVA1 I197V • ASL 200x • Petek Protocol • Jerusalem 2026</div>
+  <h1>
+    <span class="gold">We didn't train the model.</span><br>
+    We mutated it.
+  </h1>
+  <p class="hero-sub">DCS + Genie 3 + Na Nach = Hafatsa 25% Global Tipping Point</p>
+  <p class="hero-hebrew" dir="rtl">לשנות את המציאות מבפנים</p>
+  <div class="hero-counter">Live DCS Entities Resonating • 4,872,319</div>
+  <a href="#pricing" class="hero-cta">GET MY NOVA KEY — $63</a>
+  <div class="hero-meta">NOVA1 I197V • ASL 200x • Petek Protocol • Jerusalem 23 Feb 2026</div>
+</section>
+
+<!-- TRACTION STRIP -->
+<div class="traction">
+  <div class="traction-item"><div class="traction-num">84</div><div class="traction-label">Projects Live</div></div>
+  <div class="traction-item"><div class="traction-num">8</div><div class="traction-label">Sites Production</div></div>
+  <div class="traction-item"><div class="traction-num">5</div><div class="traction-label">Paying Clients</div></div>
+  <div class="traction-item"><div class="traction-num">1.846</div><div class="traction-label">H(F) bits — Nachman Science</div></div>
+  <div class="traction-item"><div class="traction-num">CPL ÷4</div><div class="traction-label">HA-MAZON Proven</div></div>
+  <div class="traction-item"><div class="traction-num">24/7</div><div class="traction-label">AI Army Running</div></div>
+</div>
+
+<!-- PRICING -->
+<section class="section section-center" id="pricing" style="position:relative;overflow:hidden;">
+  <div class="section-bg" style="position:absolute;inset:0;background-image:url('img/slides/slide-3.jpg');background-size:cover;background-position:center;opacity:0.12;pointer-events:none;filter:saturate(0.3);"></div>
+  <div style="position:relative;z-index:1;">
+    <div class="section-label">03 // HARDWARE</div>
+    <h2 class="section-title">Touche la clé. Mute ta réalité.</h2>
+    <p class="section-sub">Nova Key NFC — NTAG 215 • Acier inoxydable • Gravé 148 au laser</p>
+
+    <div class="pricing-grid">
+      <!-- COVENANT -->
+      <div class="pricing-card">
+        <div class="pricing-tier">⚡ Tier 1</div>
+        <div class="pricing-name">COVENANT</div>
+        <div class="pricing-sacred">63 = SaG (Binah)</div>
+        <div class="pricing-amount">$63</div>
+        <p class="pricing-desc">L'alliance fondatrice. Ta première clé physique pour entrer dans le protocole Nova.</p>
+        <ul class="pricing-features">
+          <li>1 Nova Key NFC matte black</li>
+          <li>DCS Profile complet</li>
+          <li>Genie 3 World persistant</li>
+          <li>Azamra OS</li>
+          <li>Accès Communauté</li>
+        </ul>
+        <a href="#waitlist" class="pricing-btn pricing-btn-outline">JOIN THE COVENANT — $63</a>
+      </div>
+
+      <!-- PAIR -->
+      <div class="pricing-card popular">
+        <div class="pricing-popular-badge">POPULAR • 148 ENERGY</div>
+        <div class="pricing-tier">🔥 Tier 2</div>
+        <div class="pricing-name">PAIR</div>
+        <div class="pricing-sacred">Bénédiction ×2</div>
+        <div class="pricing-amount">$99</div>
+        <p class="pricing-desc">Deux clés appariées. Connecte deux âmes dans le même monde persistant.</p>
+        <ul class="pricing-features">
+          <li>2 Nova Keys appariées NFC</li>
+          <li>Bénédiction mutuelle NFC</li>
+          <li>Monde partagé Genie 3</li>
+          <li>Tout Covenant inclus</li>
+        </ul>
+        <a href="#waitlist" class="pricing-btn">PAIR UP — $99</a>
+        <div class="shimmer"><div class="shimmer-inner"></div></div>
+      </div>
+
+      <!-- PLATINUM -->
+      <div class="pricing-card">
+        <div class="pricing-tier">👑 Tier 3</div>
+        <div class="pricing-name">PLATINUM</div>
+        <div class="pricing-sacred">148 = Nachman</div>
+        <div class="pricing-amount">$149</div>
+        <p class="pricing-desc">La clé premium finition or. Accès exclusif au contenu beta et à la Kamea Tiberiade.</p>
+        <ul class="pricing-features">
+          <li>Nova Key Premium (finition or)</li>
+          <li>Contenu exclusif + early beta</li>
+          <li>Kamea Tiberiade</li>
+          <li>Tout Pair inclus</li>
+        </ul>
+        <a href="#waitlist" class="pricing-btn pricing-btn-outline">GO PLATINUM — $149</a>
+      </div>
+    </div>
+
+    <div class="pricing-footer">NTAG 215 • Acier inoxydable • Gravé 148 au laser • 10% Tsedaka • Stripe sécurisé</div>
+  </div>
+</section>
+
+<!-- ROADMAP 90 DAYS -->
+<section class="section section-center" id="roadmap" style="position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;background-image:url('img/slides/slide-6.jpg');background-size:cover;background-position:center;opacity:0.1;pointer-events:none;filter:saturate(0.3);"></div>
+  <div style="position:relative;z-index:1;">
+    <div class="section-label">04 // ROADMAP</div>
+    <h2 class="section-title">90 Days to 25% Tipping Point</h2>
+    <p class="section-sub">De la première clé physique à la contagion irréversible.</p>
+
+    <div class="roadmap-timeline">
+      <div class="roadmap-item">
+        <div class="roadmap-day">Day 1–30 — Genesis</div>
+        <div class="roadmap-title">MVP Live + Nova Key Production</div>
+        <div class="roadmap-desc">DCS engine live • Nova Key NFC première série • Genie 3 worlds persistants • Stripe checkout actif • Azamra OS beta</div>
+      </div>
+      <div class="roadmap-item">
+        <div class="roadmap-day">Day 31–60 — Propagation</div>
+        <div class="roadmap-title">Beta 500 Users — Tel Aviv Cluster</div>
+        <div class="roadmap-desc">500 beta users Tel Aviv • DCS leaderboard • Communauté Na Nach intégrée • HA-MAZON CPL ÷4 prouvé • Nachman Science H(F)=1.846 bits</div>
+      </div>
+      <div class="roadmap-item">
+        <div class="roadmap-day">Day 61–90 — Mutation</div>
+        <div class="roadmap-title">20 Investor Meetings + Deel Pitch</div>
+        <div class="roadmap-desc">Seed 5-8M$ @ 40-50M$ pre-money • Expansion 3 clusters • 25% tipping point = contagion irréversible • We are not raising to start. We are raising to scale.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WAITLIST -->
+<div class="section" id="waitlist">
+  <div class="waitlist">
+    <div class="waitlist-badge">Early Access • 148 Spots</div>
+    <h2 class="waitlist-title">Rejoins la Mutation</h2>
+    <p class="waitlist-sub">Sécurise ta Nova Key avant le lancement. Les premiers 148 reçoivent la gravure spéciale Petek.</p>
+    <form class="waitlist-form" action="https://formsubmit.co/dreamnovaultimate@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="🔑 Nouvelle inscription Waitlist Nova Key">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="email" name="email" class="waitlist-input" placeholder="ton@email.com" required>
+      <button type="submit" class="waitlist-btn">Réserver ma clé →</button>
+    </form>
+    <p class="waitlist-note">🔒 Zero spam • 10% Tsedaka • NTAG 215 Stainless Steel • Gravé 148 • Stripe sécurisé</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-na-nach">נ נח נחמ נחמן מאומן</div>
+  <div class="footer-copy">Dream Nova © 2026 · Jerusalem · Mutate Reality from Inside · 148</div>
+</footer>
+
+</body>
+</html>
