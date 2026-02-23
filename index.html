@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,12 @@
   <meta property="og:title" content="DREAM NOVA — Mutate Reality from Inside">
   <meta property="og:description" content="Nova Key NFC — Hardware that mutates reality. Covenant $63 · Pair $99 · Platinum $149.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://codenolimits.github.io/dreamnova-v3/img/grok/nova_key_hero_wide.jpg">
+  <meta property="og:url" content="https://codenolimits.github.io/dreamnova-v3/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://codenolimits.github.io/dreamnova-v3/img/grok/nova_key_hero_wide.jpg">
+  <link rel="canonical" href="https://codenolimits.github.io/dreamnova-v3/">
+  <meta name="theme-color" content="#0c0a09">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -128,14 +133,23 @@
       .pricing-grid { grid-template-columns: 1fr; max-width: 400px; margin-left: auto; margin-right: auto; }
       .pricing-card.popular { transform: none; }
       .nav-links a:not(.nav-cta) { display: none; }
-      .traction { gap: 1.5rem; }
+      .nav-cta { font-size: 0.7rem !important; padding: 0.3rem 0.6rem !important; white-space: nowrap; }
+      .traction { gap: 1rem; }
+      .traction-num { font-size: 1.5rem; }
+      .hero h1 { font-size: 1.8rem; }
+      .hero-sub { font-size: 0.9rem; }
+      .section-title { font-size: 1.5rem; }
+      .pricing-name { font-size: 1.4rem; }
+      .pricing-amount { font-size: 2.5rem; }
+      .roadmap-title { font-size: 1.1rem; }
+      .waitlist-title { font-size: 1.6rem; }
     }
   </style>
 </head>
 <body>
 
 <!-- NAV -->
-<nav>
+<nav aria-label="Navigation principale">
   <div class="nav-inner">
     <a href="#" class="nav-logo">DREAM<span>NOVA</span></a>
     <div class="nav-links">
@@ -152,7 +166,7 @@
     <video autoplay muted loop playsinline preload="auto" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.2;">
       <source src="video/hero-bg.mp4" type="video/mp4">
     </video>
-    <img src="img/grok/nova_key_hero_wide.png" alt="Nova Key Floating" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3;mix-blend-mode:screen;pointer-events:none;">
+    <img src="img/grok/nova_key_hero_wide.jpg" alt="Nova Key Floating" width="1920" height="1080" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3;mix-blend-mode:screen;pointer-events:none;">
   </div>
   <div class="hero-eyebrow">NOVA1 I197V • ASL 200x • Petek Protocol • Jerusalem 2026</div>
   <h1>
@@ -169,7 +183,7 @@
 
 <!-- TRACTION / PROOF -->
 <section class="section section-center" id="traction" style="position:relative;overflow:hidden;background:#000;border-top:1px solid rgba(34,211,238,0.15);border-bottom:1px solid rgba(212,175,55,0.15);">
-  <div style="position:absolute;inset:0;background-image:url('img/grok/dcs_score_visual.png');background-size:cover;background-position:center;opacity:0.25;mix-blend-mode:screen;pointer-events:none;"></div>
+  <div style="position:absolute;inset:0;background-image:url('img/grok/dcs_score_visual.jpg');background-size:cover;background-position:center;opacity:0.25;mix-blend-mode:screen;pointer-events:none;"></div>
   <div style="position:relative;z-index:1;padding:2rem 0;">
     <div class="section-label" style="color:var(--cyan);">00 // LIVE SYSTEM</div>
     <h2 class="section-title" style="margin-bottom:2rem;font-size:2rem;">DCS Dashboard</h2>
@@ -186,7 +200,7 @@
 
 <!-- MUTATION / SOLUTION -->
 <section class="section section-center" id="mutation" style="position:relative;overflow:hidden;">
-  <div style="position:absolute;inset:0;background-image:url('img/grok/mutation_concept.png');background-size:cover;background-position:center;opacity:0.15;pointer-events:none;filter:saturate(0.5);"></div>
+  <div style="position:absolute;inset:0;background-image:url('img/grok/mutation_concept.jpg');background-size:cover;background-position:center;opacity:0.15;pointer-events:none;filter:saturate(0.5);"></div>
   <div style="position:relative;z-index:1;">
     <div class="section-label">01 // THE MUTATION</div>
     <h2 class="section-title">NOVA1 I197V & ASL</h2>
@@ -196,7 +210,7 @@
 
 <!-- MARKET / OPPORTUNITY -->
 <section class="section section-center" id="market" style="position:relative;overflow:hidden;background:rgba(212,175,55,0.02);border-top:1px solid rgba(212,175,55,0.1);border-bottom:1px solid rgba(212,175,55,0.1);">
-  <div style="position:absolute;inset:0;background-image:url('img/grok/hafatsa_25_visual.png');background-size:cover;background-position:center;opacity:0.2;pointer-events:none;"></div>
+  <div style="position:absolute;inset:0;background-image:url('img/grok/hafatsa_25_visual.jpg');background-size:cover;background-position:center;opacity:0.2;pointer-events:none;"></div>
   <div style="position:relative;z-index:1;">
     <div class="section-label">02 // OPPORTUNITY</div>
     <h2 class="section-title">25% Global Tipping Point</h2>
@@ -206,7 +220,7 @@
 
 <!-- PRICING -->
 <section class="section section-center" id="pricing" style="position:relative;overflow:hidden;">
-  <div class="section-bg" style="position:absolute;inset:0;background-image:url('img/grok/nova_key_close.png');background-size:cover;background-position:center;opacity:0.25;pointer-events:none;filter:saturate(0.8);"></div>
+  <div class="section-bg" style="position:absolute;inset:0;background-image:url('img/grok/nova_key_close.jpg');background-size:cover;background-position:center;opacity:0.25;pointer-events:none;filter:saturate(0.8);"></div>
   <div style="position:relative;z-index:1;">
     <div class="section-label">03 // HARDWARE</div>
     <h2 class="section-title">Touche la clé. Mute ta réalité.</h2>
@@ -306,6 +320,7 @@
     <form class="waitlist-form" action="https://formsubmit.co/dreamnovaultimate@gmail.com" method="POST" style="max-width:420px;flex-direction:column;">
       <input type="hidden" name="_subject" value="🔑 Nouvelle inscription Waitlist Nova Key">
       <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://buy.stripe.com/dRmdR9gNaaLE8CS23V2Ry08">
       <input type="email" name="email" class="waitlist-input" placeholder="ton@email.com" required style="width:100%;text-align:center;font-family:var(--font-tech);letter-spacing:0.1em;">
       <button type="submit" class="waitlist-btn" style="width:100%;padding:1.1rem;font-size:1rem;letter-spacing:0.1em;margin-top:0.5rem;">RÉSERVER MA CLÉ — $63</button>
     </form>
