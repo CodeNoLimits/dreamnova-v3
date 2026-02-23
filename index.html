@@ -13,7 +13,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://codenolimits.github.io/dreamnova-v3/img/grok/nova_key_hero_wide.jpg">
   <link rel="canonical" href="https://codenolimits.github.io/dreamnova-v3/">
-  <meta name="theme-color" content="#0c0a09">
+  <meta name="theme-color" content="#0A0A0A">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Product","name":"Nova Key NFC","description":"Hardware NFC qui mute la réalité. Clé en acier inoxydable gravée 148 au laser.","brand":{"@type":"Brand","name":"DreamNova"},"offers":[{"@type":"Offer","name":"Covenant","price":"63.00","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://buy.stripe.com/dRmdR9gNaaLE8CS23V2Ry08"},{"@type":"Offer","name":"Pair","price":"99.00","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://buy.stripe.com/9B6dR9aoM3jc5qGfUL2Ry09"},{"@type":"Offer","name":"Platinum","price":"149.00","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://buy.stripe.com/aFa28r7cAdXQg5k23V2Ry0a"}]}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -144,6 +148,14 @@
       .roadmap-title { font-size: 1.1rem; }
       .waitlist-title { font-size: 1.6rem; }
     }
+    @media (max-width: 480px) {
+      .nav-cta { font-size: 0.65rem !important; padding: 0.25rem 0.5rem !important; }
+      .hero h1 { font-size: 1.5rem; }
+      .pricing-name { font-size: 1.2rem; word-break: break-word; }
+      .pricing-amount { font-size: 2rem; }
+      .pricing-btn, .pricing-btn-outline { font-size: 0.8rem; padding: 0.7rem 1rem; }
+      .traction { grid-template-columns: repeat(2, 1fr); }
+    }
   </style>
 </head>
 <body>
@@ -163,7 +175,7 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-video">
-    <video autoplay muted loop playsinline preload="auto" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.2;">
+    <video autoplay muted loop playsinline preload="auto" poster="img/grok/nova_key_hero_wide.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.2;">
       <source src="video/hero-bg.mp4" type="video/mp4">
     </video>
     <img src="img/grok/nova_key_hero_wide.jpg" alt="Nova Key Floating" width="1920" height="1080" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3;mix-blend-mode:screen;pointer-events:none;">
